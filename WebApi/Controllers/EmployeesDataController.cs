@@ -11,7 +11,7 @@ namespace WebApi.Controllers
     public class EmployeesDataController : ApiController
     {
         static List<string> Employees =new List<string> { "Aman", "Ram", "singh","kunal","amit" };
-        // GET Api/EmployeesData
+        //GET Api/EmployeesData
         public IEnumerable<string> GetEmployees()
         {
             return Employees;
